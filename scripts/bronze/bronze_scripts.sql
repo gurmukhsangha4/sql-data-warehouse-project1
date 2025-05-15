@@ -48,7 +48,7 @@ CREATE TABLE bronze.crm_sales_details (
     sls_quantity INT, 
     sls_price INT
 );
-
+-- checkin if null
 IF OBJECT_ID('bronze.erp_loc_a101', 'U') IS NOT NULL
     DROP TABLE bronze.erp_loc_a101;
 GO
